@@ -1,0 +1,35 @@
+.puzzle-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-container{
+    width: 20%;
+    padding: 16px;
+}
+.container{
+    display: flex;
+    padding: 16px;
+}
+.btn-game{
+    width: 50px;
+    height: 24px;
+    background-color: greenyellow;
+    border-style: solid;
+    outline: none;
+    border-width: 0ch;
+    border-radius: 4px;
+    margin: 5px;
+}
+.btn-zero{
+    width: 50px;
+    height: 24px;
+    background-color: transparent;
+    border-style: solid;
+    outline: none;
+    border-radius: 4px;
+    margin: 5px;
+    border-width: 0ch;
+}
